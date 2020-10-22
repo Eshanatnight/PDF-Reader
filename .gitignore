@@ -1,0 +1,22 @@
+# Environment
+venv/
+
+# vscode files
+.vscode/*.json
+
+#Test document
+*.pdf
+
+# Default ignored files
+shelf/
+workspace.xml
+.idea
+build
+dist
+
+# PyCache
+__pycache__/
+
+
+#others
+main.spec
