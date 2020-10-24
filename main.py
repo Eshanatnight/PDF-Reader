@@ -2,13 +2,11 @@ import pyttsx3
 import PyPDF2
 from extra import *
 
-
 if __name__ == "__main__":
     print("[Starting]: Reader is starting")
-
-
+    # initializing speaker object
     speaker = pyttsx3.init()
-    nameOfBook = str(input("Enter The Name(without extention) with the Path to the file: "))
+    nameOfBook = str(input("Enter The Name(without extension) with the Path to the file: "))
     book = open(nameOfBook + ".pdf", 'rb')
     reader = PyPDF2.PdfFileReader(book)
     speaker.setProperty('rate', 175)
