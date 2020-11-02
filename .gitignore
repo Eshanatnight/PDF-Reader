@@ -1,6 +1,6 @@
 # Environment
 venv/
-
+.vs/
 # vscode files
 .vscode/*.json
 
