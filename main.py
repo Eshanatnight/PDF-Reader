@@ -5,7 +5,7 @@ from gui import GUI
 
 book = ''
 
-if __name__ == "__main__":
+def main():
     print("[Starting]: Reader is starting")
     root = Tk.Tk()
     root.title("PDF Reader")
@@ -22,4 +22,8 @@ if __name__ == "__main__":
     root.mainloop()
     gui.join()
     print("[Finished]: Process Finished")
+
+
+if __name__ == "__main__":
+    main()
 
